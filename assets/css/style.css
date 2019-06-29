@@ -274,69 +274,30 @@ textarea {
 
 @media (max-width: 768px)  {
 	header {
-		clear: both;
-		top: 0;
-		background-color: white;
-		border-color: #cccccc;
-		border-bottom: 1px;
-		border-bottom-style: sold;
-		margin-bottom: 60px;
-		border-bottom-style: solid;
-		border-bottom-color: #dddddd;
-		border-bottom-width: 1px;
+	
 	}
 	
 	footer {
-		clear: both;
-		border-top-width: 4px;
-		border-top-style: solid;
-		border-top-color: #4aaaa5;
-		background-color: grey;
-		padding: 20px;
-		color: white;
-		text-align: center;
-		bottom: 0;
 		margin-top: 40px;
 		width: 100%;
 	}
 	
 	li {
-		float: right;
-		padding-right: 8px;
-		margin: 20px;
-		margin-right: 10px;
-		border-right-width: 1px;
-		border-right-color: #777777;
-		border-right-style: solid;
 		font: large;
 	}
 	
 	h1 {
-		clear: both;
-		background-color: #4aaaa5;
-		display: block;
-		padding: 18px;
-		color: white;
-		float: left;
-		font-weight: bold;
 		font-size: xx-large;
 		justify-content: left;
 	}
 	
 	h2 {
-		clear: both;
-		font-weight: bold;
-		color: #4aaaa5;
-		border-bottom-color: grey;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		font-size: xx-large;
 		margin-bottom: 25px;
 		padding-bottom: 25px;
 	}
 	
 	p {
-		font-family: Arial, Helvetica, sans-serif;
 		font: 25px;
 	}
 	
@@ -355,41 +316,20 @@ textarea {
 	*/
 	
 	.CenterFrame {
-		clear: both;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		width: 760px;
-		background-color: white;
-		margin: 0 auto;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #dddddd;
 		min-height: 800px;
 		position: center;
 	}
 	
 	.CenterFrame-2 {
-		clear: both;
-		display: flex;
-		align-items: center;
 		width: 760px;
-		background-color: white;
-		margin: 0 auto;
 		height: 80px;
 		position: center;
 	}
 	
 	.CenterFrame-3 {
 		clear: both;
-		display: flex;
-		justify-content: center;
 		width: 760px;
-		background-color: white;
-		margin: 0 auto;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #dddddd;
 		min-height: 800px;
 		position: center;
 	}
@@ -409,8 +349,6 @@ textarea {
 	*/
 	
 	.profile {
-		float: left;
-		margin-right: 20px;
 	}
 	
 	.portfolio-icon {
@@ -451,30 +389,15 @@ textarea {
 	*/
 	
 	form {
-		clear: both;
-		float: left;
-		padding-left: 25px;
-		padding-right: 25px;
-		color: #777777;
-		font-family: Arial, Helvetica, sans-serif;
 	}
 	
 	input[type=submit] {
-		background-color: #4aaaa5;
-		color: white;
-		padding: 12px 40px;
-		border: none;
-		text-align: center;
-		text-decoration: none;
 		font-size: 30px;
 	}
 	
 	input[type=text],
 	textarea {
 		width: 700px;
-		padding: 10px;
-		font-family: Arial, Helvetica, sans-serif;
-		color: #777777;
 	}
 	
 	textarea {
@@ -493,7 +416,119 @@ textarea {
 @media (max-width: 640px)  {
 
 	header {
-		position: static;
-	}
 
-}
+	}
+	
+	footer {
+		width: 100%;
+	}
+	
+	li {
+
+	}
+	
+	h1 {
+		width: 100%
+
+		
+	}
+	
+	h2 {
+
+	}
+	
+	p {
+
+	}
+	
+	nav {
+		float: left;
+
+	}
+	
+	
+	/*
+	  ========================================
+	  Classes
+	  ========================================
+	*/
+	
+	.CenterFrame {
+
+	}
+	
+	.CenterFrame-2 {
+
+	}
+	
+	.CenterFrame-3 {
+
+	}
+	
+	.Content {
+
+	
+	}
+		
+	/*
+	  ========================================
+	  Images
+	  ========================================
+	*/
+	
+	.profile {
+
+	}
+	
+	.portfolio-icon {
+
+	}
+	
+	.portfolio-text {
+
+	}
+	
+	.container {
+
+	}
+	
+	/*
+	  ========================================
+	  Form submission
+	  ========================================
+	*/
+	
+	form {
+		clear: both;
+		float: left;
+		left: 0;
+		padding-left: 0px;
+		padding-right: 0px;
+		color: #777777;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	input[type=submit] {
+		float: left;
+		background-color: #4aaaa5;
+		color: white;
+		/* padding: 8px 25px; */
+		border: none;
+		text-align: center;
+		text-decoration: none;
+		font-size: 20px;
+		width: 200%;
+
+	}
+	
+	input[type=text],
+	textarea {
+		width: 200%;
+		/* padding: 10px; */
+		font-family: Arial, Helvetica, sans-serif;
+		color: #777777;
+	}
+	
+	textarea {
+		height: 400px;
+	}
